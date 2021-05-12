@@ -1,0 +1,40 @@
+/* Se utiliza el * para aplicar el formato a toda la página */
+*
+body {
+	font-family: Verdana, sans-serif; font-size:0.8em;
+	background-color:;
+}
+/* Define características genericas para los párrafos */
+p {
+ font: normal 100%/1.5 Helvetica, Arial, Sans-serif;
+ color: #8B9170;
+ text-align: justify;
+}
+/* Define tamaño de los subtítulos*/
+h2{
+  font-size: 1.5em;
+}
+/* Define características genéricas para las clases de las cajas  */
+.encabezado,  .contenido{
+  padding: 2em;
+}
+/* Define color de fondo, color de fuente, tamaño de fuente y margen inferior para header  */
+.encabezado{
+  background-color: black;
+  color:white;
+  margin-bottom:1em;
+  height: 100px;
+  font-size: 1em;
+}
+/* Define formato para la clase contenido  */
+.contenido{
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* Define formato para la clase de estructura rejilla */
+.row show-grid{
+  background-color: rgba(117, 255, 26, 1);
+  height: 100px;
+  margin-bottom: 1em;
+}
